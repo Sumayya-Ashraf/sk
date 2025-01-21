@@ -692,7 +692,7 @@ h6 {
 .whatsapp-icon {
   position: fixed;
   opacity: 0;
-  visibility: hidden;
+  visibility: visible;
   right: 1465px;
   bottom: 15px;
   z-index: 99999;
