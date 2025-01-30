@@ -91,26 +91,26 @@
   window.addEventListener('load', toggleScrollTop);
   document.addEventListener('scroll', toggleScrollTop);
 
-  /**
-   * Whatsapp icon button
-   */
-  let whatsappIcon = document.querySelector('.whatsapp-icon');
+  // /**
+  //  * Whatsapp icon button
+  //  */
+  // let whatsappIcon = document.querySelector('.whatsapp-icon');
 
-  function togglewhatsappIcon() {
-    if (scrollTop) {
-      window.scrollY > 100 ? whatsappIcon.classList.add('active') : scrollTop.classList.remove('active');
-    }
-  }
-  scrollTop.addEventListener('click', (e) => {
-    e.preventDefault();
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    });
-  });
+  // function togglewhatsappIcon() {
+  //   if (scrollTop) {
+  //     window.scrollY > 100 ? whatsappIcon.classList.add('active') : scrollTop.classList.remove('active');
+  //   }
+  // }
+  // scrollTop.addEventListener('click', (e) => {
+  //   e.preventDefault();
+  //   window.scrollTo({
+  //     top: 0,
+  //     behavior: 'smooth'
+  //   });
+  // });
 
-  window.addEventListener('load', togglewhatsappIcon);
-  document.addEventListener('scroll', togglewhatsappIcon);
+  // window.addEventListener('load', togglewhatsappIcon);
+  // document.addEventListener('scroll', togglewhatsappIcon);
 
   /**
    * Animation on scroll function and init
